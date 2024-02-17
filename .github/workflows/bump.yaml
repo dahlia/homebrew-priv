@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: macauley/action-homebrew-bump-cask@v1
       with:
-        token: ${{ github.token }}
+        token: ${{ secrets.GH_TOKEN }}
         tap: ${{ github.repository_owner }}/priv
         cask: netpad
         livecheck: true
