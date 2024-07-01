@@ -1,9 +1,9 @@
 cask "netpad" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.7.1"
-  sha256 arm:   "077f15ca3bbddeb4548a352f4cff765b3858bd4cfbfca8d5bf9b8fe86e9488b4",
-         intel: "811b8ca539588c5e8b5baa0f0797438e3e7382e2c87314c7e1b85179648cb7aa"
+  version "0.7.2"
+  sha256 arm:   "db2514c12f0635c9d5793359199184841ad7ac9fd929ad2a3d58b33de88a5ea5",
+         intel: "c3e6e0a794d811377d684981b6b1b8b54378544538b104a1eef738c6294dcd92"
 
   url "https://github.com/tareqimbasher/NetPad/releases/download/v#{version}/netpad-#{version}-mac-#{arch}.zip"
   name "netpad"
